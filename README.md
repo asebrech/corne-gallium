@@ -4,7 +4,7 @@ Config perso pour un **Keebart Corne Choc Pro** (filaire, QMK) + un **Ploopy Nan
 
 - **Alphabet** : Gallium
 - **Layout** : Miryoku officiel (home-row mods GACS, layers Nav/Mouse/Media/Num/Sym/Fun/Button)
-- **Écrans OLED** : firmware Keebart (contrôleur **SSD1312**), logo **NixOS** au boot + « CORNE CHOC PRO »
+- **Écrans OLED** : firmware Keebart (contrôleur **SSD1312**), logo **Miryoku** au boot + « CORNE CHOC PRO »
 - **Ploopy Nano 2** : bouton = toggle scroll, **+** scroll pilotable depuis le clavier (pont NumLock)
 
 ## Matériel
@@ -81,5 +81,5 @@ Le `keymap.c` du Ploopy ajoute `pointing_device_task_user` : si NumLock est allu
 
 - [Miryoku](https://github.com/manna-harbour/miryoku) (manna-harbour)
 - [Keebart vial-qmk](https://github.com/Keebart/vial-qmk-keebart) (driver SSD1312, keymap miryoku_oled)
-- Logo : [NixOS artwork](https://github.com/NixOS/nixos-artwork) (`nix-snowflake-white.svg`)
+- Logo : [Miryoku](https://github.com/manna-harbour/miryoku) (`data/logos/miryoku-roa-32.png`)
 - Idée scroll clavier : pont NumLock ([QMK PR #13013](https://github.com/qmk/qmk_firmware/pull/13013)), alternative [wiggleball](https://github.com/pandrr/wiggleball)
